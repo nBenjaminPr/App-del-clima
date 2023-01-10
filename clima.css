@@ -10,7 +10,8 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color:mediumaquamarine;
+    background: url(https://cdn.pixabay.com/photo/2017/01/14/13/59/castelmezzano-1979546_960_720.jpg);
+
     color: var(--text-color);
     position: relative;
     
@@ -163,7 +164,7 @@ footer {
 }
 .weather-card {
     margin: 20px 20px;
-    color: var(--bg-color);
+    color: white;
     padding: 20px;
     text-align: center;
     border-radius: 3px;
@@ -201,4 +202,11 @@ footer {
 .weather {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+}
+
+
+#box-card{
+    background: url(https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_960_720.jpg);
+    width: 70%;
+    margin-left: 15%;
 }
